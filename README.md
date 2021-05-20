@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Karl-afk/blogr-landing-page-main.git](https://github.com/Karl-afk/blogr-landing-page-main.git)
-- Live Site URL: [https://karl-afk.github.io/blogr-landing-page-main/]
+- Live Site URL: [https://blogr-landing-page-main-karl-afk.vercel.app/]
 
 ## My process
 
