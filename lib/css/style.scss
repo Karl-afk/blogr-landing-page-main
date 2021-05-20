@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+$fontStyleOverpass: 'Overpass', sans-serif;
+$fontStyleUbuntu: 'Ubuntu', sans-serif;
+
+$lightRed: hsl(356, 100%, 66%);
+$veryLightRed: hsl(355, 100%, 74%);
+$headings: hsl(208, 49%, 24%);
+
+$whiteText: hsl(0, 0%, 100%);
+$footerText: hsl(240, 2%, 79%);
+$bodyText: hsl(207, 13%, 34%);
+$footerBackground: hsl(240, 10%, 16%);
+
+//Background Gradient Colors Intro
+
+$introGradientColor1: hsl(13, 100%, 72%);
+$introGradientColor2: hsl(353, 100%, 62%);
+
+//Background Gradient Colors Body
+
+$bodyGradientColor1: hsl(237, 17%, 21%);
+$bodyGradientColor2: hsl(237, 23%, 32%);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $fontStyleUbuntu;
+}
+a {
+    cursor: pointer;
+}
+@import "components/header";
+@import "components/body";
+@import "components/footer";

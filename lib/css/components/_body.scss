@@ -1,0 +1,108 @@
+.main-content {
+    text-align: center;
+    line-height: 1.8rem;
+    font-family: $fontStyleOverpass;
+}
+.mt {
+    margin-top: 2rem;
+}
+.mt-1 {
+    margin-top: 5rem;
+}
+.body-img {
+    width: 100%;
+}
+.content-block {
+    padding: 0 2.4rem;
+    h2 {
+        margin-top: 2rem;
+    }
+    p {
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+}
+.content-block-light-bg {
+    color: $bodyText;
+    h2 {
+        color: $headings;
+        font-size: 24px;
+    }
+}
+.content-block-dark-bg {
+    background: url(../../../images/bg-pattern-circles.svg) no-repeat -115px -255px, linear-gradient($bodyGradientColor1, $bodyGradientColor2);
+    background-size: 600px 620px;
+    padding: 11.5rem 2.4rem 6rem 2.4rem;
+    margin-top: 15rem;
+    position: relative;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: $whiteText;
+    h2 {
+        font-size: 38px;
+        line-height: 3rem;
+    }
+    img {
+        position: absolute;
+        left: 0;
+        top: -170px;
+        width: 375px;
+    }
+}
+
+@media (max-width: 950px) {
+    .mobile-display-none {
+        display: none;
+    }
+}
+@media (min-width: 950px) {
+    .desktop-display-none {
+        display: none;
+    }
+    .main-content>h2{
+        position: relative;
+        top: 70px
+    }
+    .content-block-dark-bg {
+        display: flex;
+        flex-direction: row;
+        background: url(../../../images/bg-pattern-circles.svg) no-repeat -190px -450px, linear-gradient($bodyGradientColor1, $bodyGradientColor2);
+        background-size: 850px 850px;
+        padding: 4rem 4rem 4rem 55% ;
+        text-align: left;
+        margin-top: 2rem;
+        h2 {
+            font-size: 30px;
+        }
+        img {
+            width: 450px;
+            left: 4rem;
+            top: -50px;
+        }
+    }
+    .content-block {
+        text-align: left;
+    }
+    .content-block-desktop {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .col {
+        width: 50%;
+    }
+    .pl {
+        padding-left: 4rem;
+    }
+    .pr {
+        padding-right: 4rem;
+    }
+    .sec3-img {
+        width: 140%;
+        position: relative;
+        left: -200px;
+        
+    }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="lib/css/style.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  <header class="header">
+    <div class="navbar">
+      <div class="menu-icons">
+        <a href="#"><img src="images/logo.svg" alt=""></a>
+      </div>
+      <!--mobile nav icons-->
+      <div class="menu-icons">
+        <img id="menu-open" class="mobile-nav-btn" src="images/icon-hamburger.svg" alt="">
+        <img id="menu-close" class="mobile-nav-btn display" src="images/icon-close.svg" alt="">
+      </div>
+
+      <!--desktop nav-->
+      <nav id="desktop-nav-container" class="desktop-nav-container">
+        <div class="flex-row">
+          <a href="#"><img src="images/logo.svg" alt=""></a>
+          <div class="dropdown-list">
+            <a>Product<img src="images/icon-arrow-light.svg"></a>
+            <div class="list-items">
+              <a>Overview</a>
+              <a>Pricing</a> 
+              <a>Marketplace</a>
+              <a>Features</a>
+              <a>Integrations</a>
+            </div>
+          </div>
+          <div class="dropdown-list">
+            <a>Company<img src="images/icon-arrow-light.svg"></a>
+            <div class="list-items">
+              <a>About</a>
+              <a>Team</a>
+              <a>Blog</a>
+              <a>Careers</a>
+            </div>
+          </div>
+          <div class="dropdown-list">
+            <a>Connect<img src="images/icon-arrow-light.svg"></a>
+            <div class="list-items">
+              <a>Contact</a>
+              <a>Newsletter</a>
+              <a>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <div class="login-section-desktop">
+          <a>Login</a>
+          <a>Sign Up</a>
+        </div>
+      </nav>
+    </div>
+
+    <!--mobile nav-->
+      <nav id="mobile-nav-container" class="mobile-nav-container display">
+        <div class="nav-container-dropdown">
+          <div class="li dropdown-list">
+            <a>Product<img src="images/icon-arrow-dark.svg"></a>
+            <div class="li list-items">
+              <a>Overview</a>
+              <a>Pricing</a> 
+              <a>Marketplace</a>
+              <a>Features</a>
+              <a>Integrations</a>
+            </div>
+          </div>
+          <div class="li dropdown-list">
+            <a>Company<img src="images/icon-arrow-dark.svg"></a>
+            <div class="li list-items">
+              <a>About</a>
+              <a>Team</a>
+              <a>Blog</a>
+              <a>Careers</a>
+            </div>
+          </div>
+          <div class="dropdown-list li">
+            <a>Connect<img src="images/icon-arrow-dark.svg"></a>
+            <div class="list-items li">
+              <a>Contact</a>
+              <a>Newsletter</a>
+              <a>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <div class="login-section">
+          <a>Login</a>
+          <a>Sign&nbsp;Up</a>
+        </div>
+      </nav>
+      
+    
+    <div class="headline">
+      <h1>A modern publishing platform</h1>
+      <p>Grow your audience and build your online brand</p>
+      <div class="headline-buttons">
+        <a class="headline-button" href="#">Start for Free</a>
+        <a class="headline-button" href="#">Learn More</a>
+      </div>
+    </div>
+  </header>
+  <main class="main-content">
+    <h2 class="mt-1">Designed for the future</h2>
+    <img class="body-img desktop-display-none mt" src="images/illustration-editor-mobile.svg" alt="">
+    
+    
+      
+    <div class="content-block-desktop pl">
+      <div class="col">
+        <div class="content-block content-block-light-bg">
+          <h2>Introducing an extensible editor</h2>
+          <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of mdivtiple blogs and allows easy manipdivation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.</p>  
+        </div>
+        <div class="content-block content-block-light-bg">
+          <h2>Robust content management</h2>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in fdivl control.</p>
+        </div>
+      </div>
+      <div class="col">
+        <img class="mobile-display-none" src="images/illustration-editor-desktop.svg" alt="">  
+      </div>
+    </div>
+    
+    <div class="content-block content-block-dark-bg">
+      
+        <img class="body-img" src="images/illustration-phones.svg" alt="">
+
+      <div class="text">
+        <h2>State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for divtra-fast connectivity. 
+        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>  
+    <img class="body-img desktop-display-none mt" src="images/illustration-laptop-mobile.svg" alt="">
+    <div class="content-block-desktop pr mt">
+      <div class="col">
+        <img class="mobile-display-none sec3-img" src="images/illustration-laptop-desktop.svg" alt="">
+      </div>
+      <div class="col">
+        <div class="content-block content-block-light-bg">
+          <h2>Free, open, simple</h2>
+          <p>Blogr is a free and open source application backed by a large community of helpfdiv developers. It supports 
+          features such as code syntax highdarking, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </div>
+        <div class="content-block content-block-light-bg">
+          <h2>Powerful tooling</h2>
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <img src="images/logo.svg" alt="">
+    <nav>
+      <div class="footer-col">
+        <h3>Product</h3>
+        <ul>
+          <li><a>Overview</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>Marketplace</a></li>
+          <li><a>Features</a></li>
+          <li><a>Integrations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a>About</a></li>
+          <li><a>Team</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <ul>
+          <li><a>Contact</a></li>
+          <li><a>Newsletter</a></li>
+          <li><a>LinkedIn</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="lib/js/main.js"></script>
+</body>
+</html>
